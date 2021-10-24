@@ -27,6 +27,7 @@ void hapusKucing();
 int jumlah(int m);
 int no;
 
+// shell sort Ascending berdasarkan Umur
 int sAumur(int *arr, int z){
 	for (int gap = z/2; gap > 0; gap /= 2){
 		for (int i = gap; i < z; i += 1){
@@ -50,6 +51,7 @@ int sAumur(int *arr, int z){
 	return 0;
 }
 
+// shell sort Ascending berdasarkan Harga
 int sAharga(int *arr2, int z){
 	for (int gap = z/2; gap > 0; gap /= 2){
 		for (int i = gap; i < z; i += 1){
@@ -73,6 +75,7 @@ int sAharga(int *arr2, int z){
 	return 0;
 }
 
+// shell sort Descending berdasarkan Harga
 int sDharga(int *arr3, int z){
 	for (int gap = z/2; gap > 0; gap /= 2){
 		for (int i = gap; i < z; i += 1){
@@ -96,6 +99,7 @@ int sDharga(int *arr3, int z){
 	return 0;
 }
 
+// shell sort Descending berdasarkan Umur
 int sDumur(int *arr4, int z){
 	for (int gap = z/2; gap > 0; gap /= 2){
 		for (int i = gap; i < z; i += 1){
